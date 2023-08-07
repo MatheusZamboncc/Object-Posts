@@ -49,3 +49,38 @@ main{
     justify-content: center;
     align-items: center;
 }
+
+#list{
+max-width: 500px;
+width: 100%;
+margin-top: 20px;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 10px;
+background-color: white;
+}
+.post{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+.post h2{
+    color: #a00000;
+    margin-bottom: 5px;
+
+}
+
+.post button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+
+} 
+.post button:houver{
+    background-color: #a00000;
+}
