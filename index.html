@@ -8,28 +8,29 @@
     <script src="assets/javascript/script.js"></script>
 </head>
 <body>
+    <h1>Cadastro</h1>
     <main>
-        <h1>Proximos Posts</h1>
+    
         <div id="postform"> 
             <div> 
-                <label for="title">Titulo</label>
+                <label for="text">Nome:</label>
                 <input type="text" id="title" name="title"  required> 
             </div>
             <div> 
-                <label for="resume" >resumo</label>
-                <textarea type="text" id="resume" name="resume" rows="4" required></textarea>
+                <label for="text" >Sobrenome:</label>
+                <input type="text"id="resume" name="resume" rows="4" required>
             </div>
             <div>
-                <label for="publisher" >autor</label>
-                <input type="text" id="publisher" name="publisher"  required> 
+                <label for="number" >Idade:</label>
+                <input type="number" id="publisher" name="publisher"  required> 
             </div>
             <div> 
-                <label for="date" >data</label>
-                <input type="date" id="date" name="date"  required> 
+                <label for="text" >Cor dos olhos:</label>
+                <input type="text" id="date" name="date"  required> 
             </div>
-            <button onclick="savePost()">cadastro</button>
+            <button onclick="savePost()">enviar</button>
         </div>
-        <div id="list">
+        <div id="list" class="hidden">
 
         </div>
     </main>

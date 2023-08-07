@@ -41,6 +41,11 @@ function storePost(title, resume, publisher, date) {
 }
 
 function showPosts() {
+    document.getElementById("list").classList.remove("hidden");
+    if(posts.length == 0){
+        document.getElementById("list").classList.add("hidden");
+
+    }
     let showContent = "";
     posts.forEach((post, index) => {
         showContent += `
