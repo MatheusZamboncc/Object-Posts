@@ -5,6 +5,9 @@ function savePost(){
     const resume  = document.getElementById('resume').value;    
     const publisher = document.getElementById('publisher').value;
     const date = document.getElementById('date').value;
+
+    console.log(title, resume , publisher, date);
+
     if(title && resume && publisher && date){
     storePost(title, resume, publisher, date)
     }
@@ -18,4 +21,5 @@ function storePost(title, resume, publisher, date){
         date
 };
 posts.push(post);
+console.log(post);
 }

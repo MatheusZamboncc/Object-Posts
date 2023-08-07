@@ -9,20 +9,16 @@ h1{
     color: red;
 }
 #postform{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    padding: 20px;
-    border: 1px solid #ccc;
-    background-color: whitesmoke;
-    border-radius: 10px;
+max-width: 500px;
+width: 100%;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 10px;
+background-color: white;
     
 }
 body{
-    background-color: white;
+    background-color:rgb(179, 175, 175);
 }
 label,
 input,
@@ -31,17 +27,26 @@ textarea{
     margin-bottom: 10px;
     width: 100%;
     box-sizing: border-box;
-    resize: none;
+    max-width: 500px;
+
 }
 button{
     background-color: red;
     color: #ffffff;
     cursor: pointer;
-    width: 10%;
-    padding: 0.35rem;
+    width: 100%;
+    padding: 0.25rem;
     border-radius: 10px;
 }
 button:houver{
 background-color: #a00000;
 
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
