@@ -21,5 +21,27 @@ function storePost(title, resume, publisher, date){
         date
 };
 posts.push(post);
-console.log(post);
+showposts();
+
+}
+function showposts(){
+    let showcontent = "";
+
+    posts.forEach((post ,index) => {
+        showcontent += `
+        <div class = "post">
+        <h2>${post.title}</h2> 
+        <p><strong>Resumo:</strong><p>
+        <p><strong>Autor:</strong><p>
+        <p><strong>Data de Publicação:</strong><p>
+
+        <button onclick="editpost(${index})">Editar</button>
+        <button onclick="removepost(${index})">Remover</button>
+
+        
+        </div>
+        `
+    })
+    document.getElementById("list").innerHTML = showcontent
+
 }
