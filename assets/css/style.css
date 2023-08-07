@@ -4,3 +4,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1{
+    text-align: center;
+    color: red;
+}
+#postform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    
+}
+body{
+    background-color: white;
+}
+label,
+input,
+textarea{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+}
+button{
+    background-color: red;
+    color: #ffffff;
+    cursor: pointer;
+    width: 10%;
+    padding: 0.35rem;
+    border-radius: 10px;
+}
+button:houver{
+background-color: #a00000;
+
+}
