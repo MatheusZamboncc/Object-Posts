@@ -51,9 +51,9 @@ function showPosts() {
         showContent += `
         <div class = "post"> 
         <h2>${post.title}</h2>
-        <p><strong>Resumo:</strong> ${post.resume} </p>
-        <p><strong>Autor:</strong> ${post.publisher} </p>
-        <p><strong>Data da publicação</strong> ${post.date} </p>
+        <p><strong>sobrenome:</strong> ${post.resume} </p>
+        <p><strong>idade:</strong> ${post.publisher} </p>
+        <p><strong>cor dos olhos</strong> ${post.date} </p>
 
         <button onclick="editPost(${index})">Editar</button>
         <button onclick="removePost(${index})">Remover</button>
